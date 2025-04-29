@@ -4,7 +4,6 @@ metadata:
   name: flux-tenant
   namespace: flux-system
 spec:
-  interval: 1m
-  url: https://github.com/JeevithaChandana/tenant-repo  # Replace with your tenant repo URL
-  branch: main
-
+  url: git@github.com:JeevithaChandana/tenant-repo.git
+  ref:
+    branch: main
