@@ -4,6 +4,8 @@ metadata:
   name: flux-tenant
   namespace: flux-system
 spec:
-  url: git@github.com:JeevithaChandana/tenant-repo.git
+  url: https://github.com/JeevithaChandana/tenant-repo.git  # Use HTTPS URL
   ref:
     branch: main
+  interval: 1m  # Add interval to specify how often to check for changes
+
