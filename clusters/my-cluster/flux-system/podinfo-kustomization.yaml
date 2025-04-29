@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  path: ./apps/podinfo
+  path: ../../../../tenant-repo/apps/podinfo  # Path to your app inside tenant-repo
   prune: true
   sourceRef:
     kind: GitRepository
